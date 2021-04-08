@@ -11,7 +11,6 @@ export default function Third() {
     return (
         <div class="container-fluid h-100">
             <div>
-                {/* <div class="row"> */}
                 <div class="row row-cols-2">
                     <div class="col" style={{background: `url(${image1})`,backgroundRepeat: 'no-repeat',backgroundSize: 'cover', width: '100%'}}>
                         <div style={{paddingTop: 230, color: 'white'}}>

@@ -1,4 +1,3 @@
-
 import React from 'react'
 
 import image1 from '../images/logo-white.png'

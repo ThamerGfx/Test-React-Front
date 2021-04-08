@@ -39,24 +39,22 @@ export default function Seconde() {
                 <center><p class="col-5">Dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore id</p></center>
                 <div class="row">
                     <div class="col-md-12" >
-                    
                         <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
-                        <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
-                        </ol>   
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-3">
-                                        <div class="thumb-wrapper">
-                                            <div class="img-box">
-                                                <img src={product1} class="img-fluid" alt=""/>
-                                            </div>
-                                            <div class="thumb-content">
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+                            </ol>   
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src={product1} class="img-fluid" alt=""/>
+                                                </div>
+                                                <div class="thumb-content">
                                                     <div class="row">
-
                                                         <div class="col-8">
                                                             <h4 style={{textAlign: 'left'}}>BAGS</h4>
                                                             <h6 style={{textAlign: 'left', color: 'grey', fontSize: 11}}>aper bag</h6>
@@ -65,10 +63,10 @@ export default function Seconde() {
                                                             <span class="item-price">$6.00</span> 
                                                         </div>
                                                     </div>
-                                            </div>						
+                                                </div>						
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-3">
+                                        <div class="col-3">
                                         <div class="thumb-wrapper">
                                             <div class="img-box">
                                                 <img src={product2} class="img-fluid" alt=""/>
@@ -85,47 +83,47 @@ export default function Seconde() {
                                                 </div>
                                             </div>						
                                         </div>
-                                    </div>		
-                                    <div class="col-3">
-                                        <div class="thumb-wrapper">
-                                            <div class="img-box">
-                                                <img src={product3} class="img-fluid" alt=""/>
-                                            </div>
-                                            <div class="thumb-content">
-                                                <div class="row">
-                                                    <div class="col-8">
-                                                        <h4 style={{textAlign: 'left'}}>SHUTTER</h4>
-                                                        <h6 style={{textAlign: 'left', color: 'grey', fontSize: 11}}>Packaging</h6>
-                                                    </div>
-                                                    <div class="col-4" style={{marginTop: '4%', color: 'grey'}}>
-                                                        <span class="item-price">$10.00</span> 
-                                                    </div>
+                                        </div>		
+                                        <div class="col-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src={product3} class="img-fluid" alt=""/>
                                                 </div>
-                                            </div>						
-                                        </div>
-                                    </div>								
-                                    <div class="col-3">
-                                        <div class="thumb-wrapper">
-                                            <div class="img-box">
-                                                <img src={product4} class="img-fluid" alt=""/>
+                                                <div class="thumb-content">
+                                                    <div class="row">
+                                                        <div class="col-8">
+                                                            <h4 style={{textAlign: 'left'}}>SHUTTER</h4>
+                                                            <h6 style={{textAlign: 'left', color: 'grey', fontSize: 11}}>Packaging</h6>
+                                                        </div>
+                                                        <div class="col-4" style={{marginTop: '4%', color: 'grey'}}>
+                                                            <span class="item-price">$10.00</span> 
+                                                        </div>
+                                                    </div>
+                                                </div>						
                                             </div>
-                                            <div class="thumb-content">
-                                                <div class="row">
-                                                    <div class="col-8">
-                                                        <h4 style={{textAlign: 'left'}}>CORK</h4>
-                                                        <h6 style={{textAlign: 'left', color: 'grey', fontSize: 11}}>Magazine</h6>
-                                                    </div>
-                                                    <div class="col-4" style={{marginTop: '4%', color: 'grey'}}>
-                                                        <span class="item-price">$10.00</span> 
-                                                    </div>
+                                        </div>								
+                                        <div class="col-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src={product4} class="img-fluid" alt=""/>
                                                 </div>
-                                            </div>						
+                                                <div class="thumb-content">
+                                                    <div class="row">
+                                                        <div class="col-8">
+                                                            <h4 style={{textAlign: 'left'}}>CORK</h4>
+                                                            <h6 style={{textAlign: 'left', color: 'grey', fontSize: 11}}>Magazine</h6>
+                                                        </div>
+                                                        <div class="col-4" style={{marginTop: '4%', color: 'grey'}}>
+                                                            <span class="item-price">$10.00</span> 
+                                                        </div>
+                                                    </div>
+                                                </div>						
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                     </div>
                 </div>
         </div>
